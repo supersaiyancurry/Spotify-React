@@ -18,18 +18,18 @@ function Index() {
     <React.Fragment>
       <AppAppBar />
       <ProductHero />
-      <div className={styles.player}>
+      <div>
         <SoundCloud
         className='img-responsive'
-        playlist="774341907"
+        playlist="222968340"
         mini={false}
         theme={'dark'}
       />
       </div>
       <ProductValues />
       <ProductCategories />
-      <ProductHowItWorks />
-      <ProductCTA />
+      {/* <ProductHowItWorks /> */}
+      {/* <ProductCTA /> */}
       <ProductSmokingHero />
       <AppFooter />
     </React.Fragment>
